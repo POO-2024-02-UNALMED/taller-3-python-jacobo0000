@@ -13,7 +13,7 @@ class Control:
     self.tv.turnOff()
 
   def canalUp(self):
-    self.tv.canalup()
+    self.tv.canalUp()
 
   def canalDown(self):
     self.tv.canalDown()
@@ -22,7 +22,7 @@ class Control:
     self.tv.volumenUp()
 
   def volumenDown(self):
-    self.tv.columenDown()
+    self.tv.volumenDown()
 
   def setCanal(self, canalNuevo):
     self.tv.setCanal(canalNuevo)
