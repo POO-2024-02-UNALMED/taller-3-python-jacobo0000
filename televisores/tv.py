@@ -32,14 +32,14 @@ class TV:
     self.estado = False
 
   def setCanal(self, canalNuevo):
-    if self.estado == 1 & canalNuevo >= 1 & canalNuevo <= 120:
+    if self.estado == True & canalNuevo >= 1 & canalNuevo <= 120:
       self.canal = canalNuevo
 
   def setPrecio (self, precioNuevo):
     self.precio = precioNuevo
 
   def setVolumen (self, volumenNuevo):
-    if self.estado == 1 & volumenNuevo >= 0 & volumenNuevo <= 7:
+    if self.estado == True & volumenNuevo >= 0 & volumenNuevo <= 7:
       self.volumen = volumenNuevo
 
   def setMarca (self, marcaNueva):
