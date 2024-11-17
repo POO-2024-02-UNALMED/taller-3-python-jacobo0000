@@ -22,7 +22,7 @@ class TV:
       self.volumen += 1
 
   def volumenDown(self):
-    if self.estado == True & self.volumen > 1:
+    if self.estado == True & self.volumen > 0:
       self.volumen -= 1
 
   def turnOn(self):
